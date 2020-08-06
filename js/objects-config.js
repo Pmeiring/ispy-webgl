@@ -342,7 +342,7 @@ ispy.event_description = {
 	extra: "Extras_V1", assoc: "TrackExtras_V1",
 	fn: ispy.makeTracks, style: {color: "rgb(100%, 100%, 0%)", altColor: "rgb(100%, 50%, 0%)",
 				     opacity: 0.5, lineCaps: "square", linewidth: 1},
-	selection: {"min_pt": 1.0, "index": 2}
+	selection: {"min_pt": 0.0, "index": 2}
     },
     "TrackDets_V1": {
 	type: ispy.BOX, on: false, group: "Tracking", name: "Matching Tracker Dets",
