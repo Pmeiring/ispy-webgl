@@ -327,21 +327,21 @@ ispy.event_description = {
 	type: ispy.ASSOC, on: true, group: "Tracking", name: "Tracks (reco.)",
 	extra: "Extras_V1", assoc: "TrackExtras_V1",
 	fn: ispy.makeTracks, style: {color: "rgb(100%, 100%, 0%)", altColor: "rgb(100%, 50%, 0%)",
-				     opacity: 0.5, lineCaps: "square", linewidth: 1},
+				     opacity: 0.5, lineCaps: "square", linewidth: 0.5},
 	selection: {"min_pt": 0.0, index: 2}
     },
     "Tracks_V2": {
 	type: ispy.ASSOC, on: true, group: "Tracking", name: "Tracks (reco.)",
 	extra: "Extras_V1", assoc: "TrackExtras_V1",
 	fn: ispy.makeTracks, style: {color: "rgb(100%, 100%, 0%)", altColor: "rgb(100%, 50%, 0%)",
-				     opacity: 0.5, lineCaps: "square", linewidth: 1},
+				     opacity: 0.5, lineCaps: "square", linewidth: 0.5},
 	selection: {"min_pt": 0.0, "index": 2}
     },
     "Tracks_V3": {
 	type: ispy.ASSOC, on: true, group: "Tracking", name: "Tracks (reco.)",
 	extra: "Extras_V1", assoc: "TrackExtras_V1",
 	fn: ispy.makeTracks, style: {color: "rgb(100%, 100%, 0%)", altColor: "rgb(100%, 50%, 0%)",
-				     opacity: 0.5, lineCaps: "square", linewidth: 1},
+				     opacity: 0.5, lineCaps: "square", linewidth: 0.5},
 	selection: {"min_pt": 0.0, "index": 2}
     },
     "TrackDets_V1": {
@@ -442,7 +442,7 @@ ispy.event_description = {
     },
     "PFMETs_V1": {
 	type: ispy.SHAPE, on: true, group: "Physics", name: "Missing Et (PF)",
-	fn: ispy.makeMET, style: {color: "rgb(100%, 50%, 100%)", linewidth: 4, scale: 0.025}, selection: {"min_pt": 0.0}
+	fn: ispy.makeMET, style: {color: "rgb(100%, 50%, 100%)", linewidth: 4, scale: 0.015}, selection: {"min_pt": 0.0}
     },
     "PATMETs_V1": {
 	type: ispy.SHAPE, on: false, group: "Physics", name: "Missing Et (PAT)",
